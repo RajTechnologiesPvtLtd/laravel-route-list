@@ -1,0 +1,26 @@
+{
+    "name": "rajtechnologies/laravel-route-list",
+    "description": "Show searchable, filterable Laravel application routes in blade view.",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Bhargav Raviya",
+            "email": "raviyatechnical@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "RajTechnologies\\RouteList\\": "src/"
+        }
+    },
+    "minimum-stability": "dev",
+    "require": {},
+    "extra": {
+        "laravel": {
+            "providers": [
+                "RajTechnologies\\RouteList\\RouteListServiceProvider"
+            ]
+        }
+    }
+}
